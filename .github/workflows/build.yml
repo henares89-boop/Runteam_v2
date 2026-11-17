@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       EXPO_PUBLIC_SUPABASE_URL: https://nazkizshipmmrpnpkrlj.supabase.co
-      EXPO_PUBLIC_SUPABASE_ANON_KEY: sb_publishable_cTLnmn34pCSkgNkZZD79Lw_bkHBSrL
+      EXPO_PUBLIC_SUPABASE_ANON_KEY: sb_publishable_cTLnmn34pCSkgNkZZD79Lw__bkHBSrL
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
